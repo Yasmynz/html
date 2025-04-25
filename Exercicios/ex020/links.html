@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: blueviolet;
+            text-decoration: none;
+            
+        }
+
+        a:visited {
+            color: rgb(60, 15, 102);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+            
+        }
+
+        a:active {
+            color: rgb(255, 0, 170);
+        }
+
+        a::before {
+            content: "⚞";
+        }
+        a::after {
+            content: " [link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: rgba(255, 0, 170, 0.377);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Repositório GitHub</a></li>
+        <li><a href="https://www.instagram.com/mynzin_.xxs/?next=%2F" target="_blank" rel="external">Instagram Myn</a></li>
+        <li><a href="https://www.twitch.tv/myn_miller" target="_blank" rel="external">Twitch Myn</a></li>
+    </ul>
+</body>
+</html>
