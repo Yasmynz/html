@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Desafio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid rgb(35, 2, 66);
+            white-space: nowrap;   
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: rgb(223, 54, 167);
+            color: white;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        th.rosa {
+            background-color: rgb(241, 131, 199);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Desafio Tabela Grupos</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" class="rosa" scope="rowgroup">Mulheres</th>
+                <td>Yasmin Lima</td>
+                <td>Venom 3</td>
+                <td>Você</td>
+                <td>Five Nights At Freddys</td>
+            </tr>
+            <tr>
+                <td>Aurora Flora Lima</td>
+                <td>Coraline</td>
+                <td>Hello Kitty</td>
+                <td>Divertida Mente</td>
+            </tr>
+            <tr>
+                <td>Elizabete Lima</td>
+                <td>Cinderela</td>
+                <td>Lucifer</td>
+                <td>Beleza Verdadeira</td>
+            </tr>
+            <tr>
+                <th rowspan="3" class="rosa" scope="rowgroup">Homens</th>
+                <td>Cesar Barros</td>
+                <td>Venom 2</td>
+                <td>Gente Grande 2</td>
+                <td>Chico Bento</td>
+            </tr>
+            <tr>
+                <td>Jean Vitor</td>
+                <td>Venom 3</td>
+                <td>Django Livre</td>
+                <td>Homem de Ferro 1</td>
+            </tr>
+            <tr>
+                <td>Wellington Posse</td>
+                <td>Deadpool 1</td>
+                <td>Minecraft</td>
+                <td>Bloodshot</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td class="num"><strong>18</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
