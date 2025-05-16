@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .cnome {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Myn Miller</td>
+            <td>F</td>
+            <td>15</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Elizabete</td>
+            <td>F</td>
+            <td>38</td>
+            <td>Produtora</td>
+        </tr>
+        <tr>
+            <td>Wellington</td>
+            <td>M</td>
+            <td>44</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Amora Miller</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Nutricionista</td>
+        </tr>
+    </table>
+</body>
+</html>
