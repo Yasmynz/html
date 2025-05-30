@@ -153,6 +153,7 @@ section#redes-sociais img:hover {
   box-shadow: 1px 0 20px var(--cor2);
   max-width: 800px;
   min-width: 320px;
+  margin: auto;
 }
 
 .footer-glass h2 {
