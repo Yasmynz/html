@@ -9,6 +9,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 :root {
@@ -151,8 +152,8 @@ section#redes-sociais img:hover {
   padding: 2rem;
   text-align: center;
   box-shadow: 1px 0 20px var(--cor2);
-  max-width: 800px;
-  min-width: 320px;
+  max-width: 750px;
+  min-width: 310px;
   margin: auto;
 }
 
