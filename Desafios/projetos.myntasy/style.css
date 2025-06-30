@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --fundo: #fef6ff;
+    --rosa0:  #e8a6d8;
+    --cor2: #a84fff;
+    --roxo0: #844d9e;
+    --verde0: #8dc78b;
+    --textos: #fff;
+
+    --fontea: 'Quicksand', sans-serif; 
+    --fonte1: "Dancing Script", 'cursive';
+    --fonte2: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #fff0f5;
+    color: #4d004d;
+    font-family: var(--fonte2);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fef6ff;
+    border-bottom: 2px solid #e8a6d8;
+    box-shadow: 0px 2px 5px rgba(132, 77, 158, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo{
+    font-family: var(--fonte1);
+    color: var(--roxo0);
+    font-size: 36px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.178);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--roxo0);
+    font-family: var(--fonte2);
+    font-size: 18px;
+}
+
+.menu a:hover {
+  color: #e8a6d8;
+}
+
+
+.footer-glass {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #a84fff44;
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 1px 0 20px var(--cor2);
+  max-width: 750px;
+  min-width: 310px;
+  margin: auto;
+}
+
+.footer-glass h2 {
+  font-size: 2rem;
+  color: #a84fff;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.336);
+}
+
+.footer-glass p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  opacity: 0.9;
+  font-family: var(--fontea);
+  
+}
+
+.copyright {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  opacity: 0.7;
+}
