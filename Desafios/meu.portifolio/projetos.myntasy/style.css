@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 *{
     margin: 0px;
@@ -17,10 +18,14 @@
     --roxo0: #844d9e;
     --verde0: #8dc78b;
     --textos: #fff;
+    --cor0: #1e1e2f;
+    --cor1: #2b2b3c;
+    --cor3: #dcdcff;
 
     --fontea: 'Quicksand', sans-serif; 
     --fonte1: "Dancing Script", 'cursive';
     --fonte2: "Poppins", sans-serif;
+    --fonteh1: 'Playfair Display', serif;
 }
 
 body{
@@ -66,15 +71,93 @@ header{
   color: #e8a6d8;
 }
 
+.myntasy-footer {
+  background: linear-gradient(135deg, var(--cor1), var(--cor0));
+  padding: 3rem 1rem;
+  color: var(--cor3);
+  font-family: var(--fonteh1)
+}
+
+main h2.marcado {
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, var(--rosa0), transparent);
+  font-size: 1.2em;
+  text-indent: 8px;
+  font-family: var(--fonteh1);
+  color: var(--cor0);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.281);
+}
+
+main img{
+  width: 230px;
+  height: 255px;
+  margin: 30px;
+}
+
+p.per{
+  text-indent: 7px;
+  font-size: 13px;
+  border-bottom: 2px solid var(--verde0);
+}
+
+ul.cesta-florais{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 20px 0px;
+  justify-content: center;
+}
+
+.container .cesta-florais .cesta {
+    max-width: 365px;
+    background-color: #EDEDED;
+    color: #0E0027;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.container .cesta .informacoes {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.container .cesta .informacoes .nome-cesta{
+    font-size: 24px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.container .cesta .informacoes .preco {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #4D8E5C;
+}
+
+.container .cesta .informacoes a {
+  color: var(--cor1);
+  text-decoration: none;
+  font-family: var(--fontea);
+  font-size: 19px;
+  font-weight: bold;
+  display: flex;
+}
+
+a:hover {
+  background-color: #e8a6d85b;
+}
 
 .footer-glass {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid #a84fff44;
+  background: var(--cor1);
+  border: 1px solid #e8a6d89c;
   backdrop-filter: blur(10px);
   border-radius: 16px;
   padding: 2rem;
   text-align: center;
-  box-shadow: 1px 0 20px var(--cor2);
+  box-shadow: 1px 0 20px var(--rosa0);
   max-width: 750px;
   min-width: 310px;
   margin: auto;
@@ -82,9 +165,8 @@ header{
 
 .footer-glass h2 {
   font-size: 2rem;
-  color: #a84fff;
+  color: var(--rosa0);
   margin-bottom: 0.5rem;
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.336);
 }
 
 .footer-glass p {
@@ -92,7 +174,6 @@ header{
   font-size: 1rem;
   opacity: 0.9;
   font-family: var(--fontea);
-  
 }
 
 .copyright {
