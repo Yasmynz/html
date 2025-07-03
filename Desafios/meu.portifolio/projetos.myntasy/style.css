@@ -40,11 +40,12 @@ header{
     align-items: center;
     padding: 20px 40px;
     background-color: #fef6ff;
-    border-bottom: 2px solid #e8a6d8;
+    border-bottom: 2px solid #8dc78b;
     box-shadow: 0px 2px 5px rgba(132, 77, 158, 0.2);
     position: sticky;
     top: 0;
     z-index: 10;
+    background-color: #EDEDED;
 }
 
 .logo{
@@ -97,7 +98,6 @@ main img{
 p.per{
   text-indent: 7px;
   font-size: 13px;
-  border-bottom: 2px solid var(--verde0);
 }
 
 ul.cesta-florais{
@@ -146,8 +146,8 @@ ul.cesta-florais{
   display: flex;
 }
 
-a:hover {
-  background-color: #e8a6d85b;
+a.btn-comprar:hover{
+  background-color: #e8a6d84d;
 }
 
 .footer-glass {
