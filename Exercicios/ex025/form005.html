@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário | Myn</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexmas" id="isexmas"> <label for="isexmas">Masculino</label> <br>
+            <input type="radio" name="sexfem" id="isexfem"> <label for="isexfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Comidas Favoritas</legend>
+            <input type="checkbox" name="comcox" id="icomcox"> <label for="icomcox">Coxinha</label> <br>
+            <input type="checkbox" name="comham" id="icomham"> <label for="icomham">Hamburguer</label> <br>
+            <input type="checkbox" name="combat" id="icombat"> <label for="icombat">Batata Frita</label> <br>
+            <input type="checkbox" name="compiz" id="icompiz"> <label for="icompiz">Pizza</label> <br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
