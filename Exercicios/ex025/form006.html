@@ -15,7 +15,8 @@
 
         <p>
                 <label for="inivel">Nível de Satisfação</label>
-                <input type="range" name="nivel" id="inivel" min="0" max="10">
+                <input type="range" name="nivel" id="inivel" min="0" max="10" value="5" oninput="iunivel.innerHTML = Number(inivel.value)">
+                <output id="iunivel">5</output>
         </p>
 
         <p>
