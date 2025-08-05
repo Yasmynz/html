@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /*APARELHO DEITADO (LANDSCAPE)*/
+
+body {
+    background-image: url(../imagens/curso-em-video-deitado.png);
+    background-position: left bottom;
+}
